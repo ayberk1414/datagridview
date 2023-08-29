@@ -9,7 +9,11 @@ namespace DataGridView.BLL.Interfaces
 {
     public interface IProductService
     {
-        void CreateProduct(ProductDTO productDTO);
+       public void CreateProduct(ProductDTO productDTO);
+       public  void UpdateProduct(ProductDTO productDTO);
+      public void DeleteProduct(ProductDTO productDTO);
+        public List<ProductDTO> GetProducts();
+        
 
     }
 }

@@ -12,7 +12,7 @@ namespace DataGridView.DAL.Helpers
         public SqlConnection Connection => GetConnection();
         private SqlConnection GetConnection()
         {
-            return new SqlConnection("server=(localdb)\\MSSQLLocalDB; database=ProductDb; integrated security=true;");
+            return new SqlConnection("Server=(localdb)\\MSSQLLocalDB; Database=ProductDb; integrated security=true;");
           
         }
 

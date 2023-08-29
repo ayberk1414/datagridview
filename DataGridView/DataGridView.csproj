@@ -8,4 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataGridView.BLL\DataGridView.BLL.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -20,7 +20,7 @@ namespace DataGridView.DAL.Repositories
             var command = new SqlCommand();
             command.Connection = connection;
             command.CommandType = System.Data.CommandType.Text;
-            command.CommandText = "insert into Students values(@Name,@Price)";
+            command.CommandText = "insert into Products values(@Name,@Price)";
 
             command.Parameters.AddWithValue("@Name", product.Name);
             command.Parameters.AddWithValue("@Price", product.Price);
